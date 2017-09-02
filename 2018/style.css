@@ -14,3 +14,7 @@ iframe {
     width: 33%;
     height: 500px;
 }
+
+.payment {
+    src: "https://ng.paymeservice.com/subscription/template/SUB15038-57559UBL-TIASQSI2-PE436KIV"; 
+}
