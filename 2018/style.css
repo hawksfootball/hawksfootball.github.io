@@ -8,3 +8,9 @@ iframe {
     height: 100%;
     width: 100%;
 }
+
+.main {
+    margin: 1000px auto;
+    width: 33%;
+    height: 500px;
+}
