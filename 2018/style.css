@@ -2,17 +2,10 @@ body {
     height: 100%;
     width: 100%;
 }
-iframe {
-    direction: rtl;
-    align-content: right;
-    height: 100%;
-    width: 100%;
-}
 
 .main {
-    margin: 1000px auto;
+    margin: 300px auto;
     width: 33%;
-    height: 500px;
 }
 
 .payment { 
