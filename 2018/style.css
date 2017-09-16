@@ -36,6 +36,20 @@ body {
     width: fit-content; 
 }
 
+#team_letter {
+    display: flex;
+    margin: 20px auto;
+    width: fit-content;
+    background-color: orangered; 
+}
+
+#league_letter {
+    display: flex;
+    margin: 20px auto;
+    width: fit-content; 
+    background-color: darkblue;
+}
+
 .rtl {
     text-align: center;
     direction: rtl;
