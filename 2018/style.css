@@ -28,11 +28,12 @@ body {
 #main_text {
     font-size: 1.5em;
     text-align: center;
+    direction: rtl;
 }
 
 #payment {
     display: flex;
-    margin: 0 auto;
+    margin: 20px auto;
     width: fit-content; 
 }
 
@@ -50,10 +51,28 @@ body {
     background-color: darkblue;
 }
 
+#league_registration {
+    display: flex;
+    margin: 20px auto;
+    width: fit-content; 
+    background-color: darkblue;
+}
+
+#health_certificate {
+    display: flex;
+    margin: 20px auto;
+    width: fit-content; 
+    background-color: blue;
+}
+
 .rtl {
     text-align: center;
     direction: rtl;
     display: flex;
     margin: 0 auto;
     width: fit-content;
+}
+
+.underline {
+    text-decoration: underline;
 }
