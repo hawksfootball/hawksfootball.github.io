@@ -1,30 +1,76 @@
 body {
     height: 100%;
     width: 100%;
+    background-color: rgb(238, 238, 238);
 }
 
 .main {
     width: 100%;
 }
 
-.container{
-    width: 500px;
-    border: 3px orange solid;
+.container_main {
+    width: 100%;
     padding: 5px;
+    margin-top: 50px;
+    background-color: rgb(238, 238, 238);
+    margin: none;
+
+}
+
+#header {
+    width: 100%;
+    height: 56px;
+    background-color: rgb(33, 33, 33);
+    -webkit-box-shadow: 0 0 8px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 8px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.24);
+    box-shadow: 0 0 8px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.24);
+    z-index: 100;
+    box-sizing: border-box;
+    padding: 5px 24px;
+    position: fixed;
+    top: 0;
+}
+
+#header_body {
+    height: 46px;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+#header_text {
+    float: left;
+    display: flex;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    height: 45px;
+    margin: 7.5px;
 }
 
 .logo {
-    width: 100%;
-    margin: 0px auto;
     display: flex;
-    align-content: center;
+    float: left;
 }
 
 .logo img {
     margin: 0 auto;
-    width: 200px;
-    height: 160px;
+    width: 60px;
+    height: 45px;
 }
+
+#reg_list_container {
+    padding: 0 10px;
+}
+
+#reg_list {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#reg_list li {
+    background-color: white;
+}
+
 #main_text {
     font-size: 1.5em;
     text-align: center;
